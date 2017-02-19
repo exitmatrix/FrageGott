@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.andreassch.myapplication.MainActivity"
+    tools:context="net.exitmatrix.fragegott.MainActivity"
     android:padding="0dp"
-    android:layout_margin="0dp">
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:background="?android:attr/windowBackground">
+
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:paddingTop="0dp"
+        android:background="@android:color/black"
+        style="?android:attr/progressBarStyleHorizontal" />
 
     <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/idwebview" />
+        android:id="@+id/idwebview"
+        android:visibility="invisible"
+        android:elevation="1dp" />
 
-</RelativeLayout>
+</LinearLayout>
