@@ -13,7 +13,7 @@
         <activity
             android:name=".MainActivity"
             android:configChanges = "orientation|screenSize|screenLayout"            >
-            <intent-filter  android:label="FrageGott.de">
+            <intent-filter  android:label="frage Gott">
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
