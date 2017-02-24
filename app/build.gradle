@@ -7,9 +7,9 @@ android {
         applicationId "net.exitmatrix.fragegott"
         minSdkVersion 11
         targetSdkVersion 25
-        versionName '7'
+        versionName '8'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        versionCode 7
+        versionCode 8
     }
     buildTypes {
         release {
